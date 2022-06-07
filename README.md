@@ -1,1 +1,1 @@
-# wolfblood135.github.io
+# ismail seckin web sayfası
