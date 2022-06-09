@@ -38,21 +38,21 @@
 }
 .card-root-class-name {
   background-size: cover;
-  background-image: url("public/playground_assets/rectangle%2035%20%5B1%5D-200h.png");
+  background-image: db12816f-507e-4a57-a35e-96b5daef957b;
 }
 .card-root-class-name1 {
   background-size: cover;
-  background-image: url("public/playground_assets/rectangle%2035%20%5B2%5D-200h.png");
+  background-image: 6af9eb12-78c1-4b29-a6db-7649c8ba36d6;
 }
 
 
 .card-root-class-name4 {
   background-size: cover;
-  background-image: url("public/playground_assets/rectangle%2035%20%5B1%5D-200h.png");
+  background-image: db12816f-507e-4a57-a35e-96b5daef957b;
 }
 .card-root-class-name5 {
   background-size: cover;
-  background-image: url("public/playground_assets/rectangle%2035%20%5B2%5D-200h.png");
+  background-image: 6af9eb12-78c1-4b29-a6db-7649c8ba36d6;
 }
 @media(max-width: 767px) {
   .card-card {
