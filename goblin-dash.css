@@ -1,0 +1,132 @@
+.gallery-card3-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card3-navlink {
+  display: contents;
+}
+.gallery-card3-image {
+  width: 100%;
+  height: 584px;
+  object-fit: cover;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.gallery-card3-image:hover {
+  height: 780px;
+}
+.gallery-card3-text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery-card3-text1 {
+  color: #595959;
+  align-self: flex-start;
+}
+
+
+@media(max-width: 767px) {
+  .gallery-card3-gallery-card {
+    flex-direction: column;
+  }
+}
+
+.goblin-dash-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.goblin-dash-stats {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  justify-content: center;
+}
+.goblin-dash-stat {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.goblin-dash-icon {
+  fill: #999999;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.goblin-dash-text {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.goblin-dash-text1 {
+  font-size: 3rem;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 300;
+}
+.goblin-dash-stat1 {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.goblin-dash-icon3 {
+  fill: #7b7b7b;
+  width: 62px;
+  height: 40px;
+}
+.goblin-dash-text3 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.goblin-dash-text4 {
+  font-size: 3rem;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 300;
+}
+.goblin-dash-link {
+  width: 127px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.goblin-dash-link:hover {
+  width: 227px;
+}
+@media(max-width: 767px) {
+  .goblin-dash-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .goblin-dash-stat {
+    padding: var(--dl-space-space-unit);
+  }
+  .goblin-dash-text {
+    text-align: center;
+  }
+  .goblin-dash-stat1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .goblin-dash-text3 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .goblin-dash-stats {
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
