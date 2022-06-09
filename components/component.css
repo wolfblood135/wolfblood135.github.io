@@ -1,0 +1,13 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-image {
+  width: 100%;
+  height: 584px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.component-image:hover {
+  height: 780px;
+}
